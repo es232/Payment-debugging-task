@@ -1,0 +1,13 @@
+[task]
+id = "api-payout-debugging-01"
+title = "Fix Payment Payout Calculation API"
+description = "Debug and fix a FastAPI endpoint that calculates payment payouts, handling precision errors and input validation."
+difficulty = "intermediate"
+tags = ["python", "fastapi", "debugging", "validation", "data-types"]
+
+[environment]
+image = "api-payout-task:latest"
+setup_script = "environment/Dockerfile"
+
+[tests]
+test_command = "bash tests/test.sh"

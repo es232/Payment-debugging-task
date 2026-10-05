@@ -1,0 +1,7 @@
+# Set default behavior to automatic text normalization
+* text=auto eol=lf
+
+# Explicitly enforce LF for shell scripts and Dockerfiles
+*.sh text eol=lf
+*.py text eol=lf
+Dockerfile text eol=lf
